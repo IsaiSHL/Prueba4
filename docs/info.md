@@ -8,13 +8,14 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
+Explain how your project works:
 
-Explain how your project works
+Select the 'N' divide using 4 input bits, in binary. The output will be Clk_out = Input_clk / N.
 
 ## How to test
+Explain how to use your project:
 
-Explain how to use your project
+Apply a small freq. clock to the input.
+Change the input bits to see different frequencies on the output.
+Connect an LED diode with a slow clock, or best measure with an oscilloscope.
 
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
