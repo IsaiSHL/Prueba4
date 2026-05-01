@@ -8,14 +8,13 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-Explain how your project works:
 
-Select the 'N' divide using 4 input bits, in binary. The output will be Clk_out = Input_clk / N.
+The input pins are split into two parts, the first 4 are the A side bit inputs and the second 4 are the B side bit inputs.
 
 ## How to test
-Explain how to use your project:
 
-Apply a small freq. clock to the input.
-Change the input bits to see different frequencies on the output.
-Connect an LED diode with a slow clock, or best measure with an oscilloscope.
+test by inputing 2 4bit numbers and seeing if the output is correct.
 
+## External hardware
+
+make use of switch banks and a seven segment display.
